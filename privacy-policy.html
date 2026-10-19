@@ -3,53 +3,203 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - Arrow Escape</title>
+    <title>Privacy Policy | Sankalpa AppWorks</title>
+    <link rel="icon" type="image/png" href="assets/img/arrow_escape_icon.png">
     <style>
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #24292f; max-width: 800px; margin: 0 auto; padding: 40px 20px; background-color: #f6f8fa; }
-        .container { background-color: #ffffff; padding: 40px; border-radius: 12px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
-        h1 { color: #0d1117; font-size: 28px; border-bottom: 2px solid #eaecef; padding-bottom: 12px; }
-        h2 { color: #1f2328; font-size: 20px; margin-top: 28px; }
-        p, li { font-size: 15px; color: #424a53; }
-        .highlight { background-color: #e8f5e9; border-left: 4px solid #2e7d32; padding: 12px 16px; margin: 20px 0; border-radius: 0 8px 8px 0; }
-        .highlight p { margin: 0; font-weight: 500; color: #1b5e20; }
-        footer { margin-top: 40px; font-size: 13px; color: #6e7781; text-align: center; }
+        :root {
+            --bg-color: #07090e;
+            --card-bg: #0f1523;
+            --accent-cyan: #00f0ff;
+            --accent-violet: #6366f1;
+            --text-main: #e2e8f0;
+            --text-muted: #94a3b8;
+            --border: rgba(255, 255, 255, 0.08);
+        }
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.7;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 840px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 18px;
+            padding: 48px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.6);
+        }
+        .back-nav {
+            margin-bottom: 24px;
+        }
+        .back-nav a {
+            color: var(--accent-cyan);
+            text-decoration: none;
+            font-size: 0.9rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-weight: 600;
+        }
+        .back-nav a:hover {
+            text-decoration: underline;
+        }
+        h1 {
+            font-size: 2.2rem;
+            font-weight: 800;
+            color: #ffffff;
+            margin-bottom: 8px;
+        }
+        .meta {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            margin-bottom: 28px;
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 16px;
+        }
+        .highlight-box {
+            background: rgba(0, 240, 255, 0.05);
+            border-left: 4px solid var(--accent-cyan);
+            padding: 16px 20px;
+            border-radius: 0 10px 10px 0;
+            margin: 24px 0;
+        }
+        .highlight-box p {
+            margin: 0;
+            color: #e0f2fe;
+            font-weight: 500;
+            font-size: 0.98rem;
+        }
+        h2 {
+            font-size: 1.35rem;
+            color: #ffffff;
+            margin-top: 32px;
+            margin-bottom: 12px;
+        }
+        p {
+            color: var(--text-muted);
+            margin-bottom: 16px;
+            font-size: 1rem;
+        }
+        ul {
+            color: var(--text-muted);
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        code {
+            background: rgba(255, 255, 255, 0.06);
+            color: var(--accent-cyan);
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 0.9em;
+            font-family: monospace;
+        }
+        footer {
+            margin-top: 48px;
+            padding-top: 24px;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+        footer a {
+            color: var(--accent-cyan);
+            text-decoration: none;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Privacy Policy for Arrow Escape</h1>
-        <p><strong>Effective Date:</strong> September 5, 2026</p>
-        <p><strong>App Name:</strong> Arrow Escape: Logic Puzzle (<code>com.azad.arrowescape</code>)</p>
-
-        <div class="highlight">
-            <p>Summary: Arrow Escape does NOT collect, store, transmit, or share any personal data, analytics, or device identifiers. It is a completely offline, 100% ad-free puzzle game.</p>
+        <div class="back-nav">
+            <a href="index.html">← Back to Sankalpa AppWorks Home</a>
         </div>
 
-        <h2>1. Information We Collect</h2>
-        <p><strong>None.</strong> Arrow Escape does not collect any personally identifiable information (PII), location data, contacts, photos, microphone audio, or camera feeds.</p>
+        <h1>Privacy Policy</h1>
+        <div class="meta">
+            <strong>Organization:</strong> Sankalpa AppWorks &bull; 
+            <strong>Lead Developer:</strong> Sankalpa Mahapatra (Azad) &bull; 
+            <strong>Effective Date:</strong> September 5, 2026 (Updated October 2026)
+        </div>
 
-        <h2>2. Data Storage & Local Persistence</h2>
-        <p>All gameplay data (such as highest level reached, star ratings, and game settings) is stored purely <strong>locally on your device</strong> using standard Android local storage. This data never leaves your device and is erased if you uninstall the app or clear app data.</p>
+        <div class="highlight-box">
+            <p>
+                <strong>Summary & Core Commitment:</strong> Applications published by <strong>Sankalpa AppWorks</strong> (including <em>Arrow Escape: Logic Puzzle</em>, <em>Snake Traffic Clear</em>, and <em>Secure Vault</em>) are built on an offline-first, zero-knowledge architectural philosophy. We do not harvest, track, sell, or transmit your private data.
+            </p>
+        </div>
 
-        <h2>3. Third-Party Services & Advertisements</h2>
-        <p>Arrow Escape is <strong>100% Ad-Free</strong>. We do not integrate third-party advertising networks (such as Google AdMob, Unity Ads, etc.) and do not integrate third-party telemetry or behavioral tracking SDKs.</p>
-
-        <h2>4. Device Permissions Used</h2>
+        <h2>1. Information Collection & Use</h2>
+        <p>
+            We collect <strong>no personally identifiable information (PII)</strong>. Our games and utility applications do not require user account creation, phone numbers, or social media logins.
+        </p>
         <ul>
-            <li><code>android.permission.VIBRATE</code>: Used exclusively to provide haptic feedback when tapping arrows and completing levels. No private data is accessed or collected through this permission.</li>
+            <li><strong>Arrow Escape: Logic Puzzle:</strong> Does not collect or transmit any user credentials, location data, contacts, or media.</li>
+            <li><strong>Snake Traffic Clear:</strong> Completely offline gameplay logic without external telemetry.</li>
+            <li><strong>Secure Vault:</strong> All documents, certificates, and encryption keys are stored strictly in a local hardware-encrypted sandbox (AES-256-GCM via Android Keystore). No files are uploaded to cloud servers.</li>
         </ul>
 
-        <h2>5. Children's Privacy (COPPA & GDPR Compliance)</h2>
-        <p>Arrow Escape does not address anyone under the age of 13 for data collection because no data is collected from any user of any age. The game is suitable for all ages (PEGI 3 / Everyone).</p>
+        <h2>2. Local Sandbox & Device Persistence</h2>
+        <p>
+            All game progression (e.g. current level reached, coins earned, stars unlocked, haptic/audio settings) is stored purely <strong>locally on your device</strong> using standard Android sandbox storage. This data never leaves your device and is wiped if you choose to uninstall the application or clear app data via system settings.
+        </p>
 
-        <h2>6. Changes to This Privacy Policy</h2>
-        <p>We may update our Privacy Policy from time to time. Any updates will be posted on this page with an updated effective date.</p>
+        <h2>3. Advertisements & Google AdMob</h2>
+        <p>
+            Where ad-supported versions or rewarded ads are offered, we adhere to strict Google Play Developer Policies and the IAB Tech Lab <code>app-ads.txt</code> standard (Publisher ID: <code>pub-6918504259163973</code>). Ads are served safely without invasive tracking or sensitive data collection.
+        </p>
 
-        <h2>7. Contact Us</h2>
-        <p>If you have any questions or suggestions about this Privacy Policy, feel free to contact the developer via Google Play Console support.</p>
+        <h2>4. Device Permissions</h2>
+        <p>
+            Our applications request only the minimum required permissions necessary to provide their primary features:
+        </p>
+        <ul>
+            <li><code>android.permission.VIBRATE</code>: Exclusively used to deliver tactile haptic feedback during arrow escapes, collisions, and level completion. No private information is read or recorded.</li>
+            <li><code>android.permission.USE_BIOMETRIC</code>: In <em>Secure Vault</em>, used purely on-device via AndroidX BiometricPrompt for authentication without storing raw biometric imagery.</li>
+        </ul>
+
+        <h2>5. Children’s Privacy (COPPA & GDPR)</h2>
+        <p>
+            Our applications are intended for general audiences of all ages (PEGI 3 / Everyone). We do not knowingly collect any personal information from children under the age of 13.
+        </p>
+
+        <h2>6. Security of Your Information</h2>
+        <p>
+            We take security seriously. For privacy-focused applications like <em>Secure Vault</em>, all sensitive content is protected using authenticated AES-256-GCM encryption with cryptographic keys stored inside the device's hardware-backed Secure Element / TEE (Trusted Execution Environment).
+        </p>
+
+        <h2>7. Changes to This Privacy Policy</h2>
+        <p>
+            We may periodically update this policy to reflect new application releases or regulatory requirements. Any updates will be published immediately on this URL with an updated effective date.
+        </p>
+
+        <h2>8. Contact & Developer Support</h2>
+        <p>
+            If you have any questions or feedback regarding this Privacy Policy, please contact:
+        </p>
+        <p>
+            <strong>Developer:</strong> Sankalpa Mahapatra<br>
+            <strong>Organization:</strong> Sankalpa AppWorks<br>
+            <strong>Email:</strong> <a href="mailto:azadmahapatra674@gmail.com" style="color: var(--accent-cyan);">azadmahapatra674@gmail.com</a><br>
+            <strong>Website:</strong> <a href="https://sankalpa686.github.io/" style="color: var(--accent-cyan);">https://sankalpa686.github.io/</a>
+        </p>
+
+        <footer>
+            <p>&copy; 2026 <strong>Sankalpa AppWorks</strong>. All rights reserved.</p>
+            <p style="margin-top: 8px;">
+                <a href="index.html">Home</a> &bull; 
+                <a href="app-ads.txt">app-ads.txt</a> &bull; 
+                <a href="https://play.google.com/store/apps/details?id=com.azad.arrowescape" target="_blank">Google Play</a>
+            </p>
+        </footer>
     </div>
-    <footer>
-        &copy; 2026 Azad. All rights reserved.
-    </footer>
 </body>
 </html>
